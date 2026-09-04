@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS Organiser;
     Email VARCHAR(100) UNIQUE NOT NULL,
     Age INT,
     Gender VARCHAR(10)
-);
+ );
 
 CREATE TABLE  Event (
     EventID INT PRIMARY KEY IDENTITY,
