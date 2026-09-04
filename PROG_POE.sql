@@ -42,7 +42,7 @@ CREATE TABLE  Category (
     Name VARCHAR(50) NOT NULL,
     Distance VARCHAR(20),
     FOREIGN KEY (EventID) REFERENCES Event(EventID)
-);
+ );
 
  CREATE TABLE Enrolment (
     EnrolmentID INT PRIMARY KEY IDENTITY,
