@@ -1,6 +1,6 @@
 
 CREATE DATABASE RaceDayDB;
-GO
+GO 
 USE RaceDayDB;
 GO
 
