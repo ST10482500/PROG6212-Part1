@@ -61,7 +61,7 @@ CREATE TABLE Result (
     FinishTime TIME,
     Position INT,
     FOREIGN KEY (EnrolmentID) REFERENCES Enrolment(EnrolmentID)
- );
+  );
 
 --  Insert sample data 
 
