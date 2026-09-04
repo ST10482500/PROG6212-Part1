@@ -19,7 +19,7 @@ DROP TABLE IF EXISTS Organiser;
     ContactNumber VARCHAR(20)
 );
 
-CREATE TABLE Participant (
+ CREATE TABLE Participant (
     ParticipantID INT PRIMARY KEY IDENTITY,
     Name VARCHAR(100) NOT NULL,
     Email VARCHAR(100) UNIQUE NOT NULL,
