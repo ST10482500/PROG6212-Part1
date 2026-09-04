@@ -34,7 +34,7 @@ CREATE TABLE  Event (
     EventDate DATE NOT NULL,
     OrganiserID INT NOT NULL,
     FOREIGN KEY (OrganiserID) REFERENCES Organiser(OrganiserID)
-);
+ );
 
 CREATE TABLE  Category (
     CategoryID INT PRIMARY KEY IDENTITY,
